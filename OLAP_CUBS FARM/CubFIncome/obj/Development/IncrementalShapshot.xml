@@ -1,0 +1,257 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CubFIncome</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>XChfXMQa11uznKk0nu1saaREKHk=18.03.2025 20:43:0218.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>DWH Для Lasmart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>58fcwk3y+hOhLruVuI9+XBpUTw4=02.03.2025 16:36:4118.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>fIncome</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>VJpGLM26/X4rvBdZeJ+1kEDBKbs=09.03.2025 17:43:4418.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>fMovegood</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>yUDC9ax7uwU+5is0GOb1QjNz4YY=15.03.2025 1:25:5218.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>fStock</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>D7uqJjie9IF3Pu87RdWJifIGjcQ=09.03.2025 17:49:3218.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>GoodGroups</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bpjxsV65cV2Hb2ZUYsSIKU0AnoU=09.03.2025 17:49:4218.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Календарь</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>G0ze+pBVbZ+739alcMgx1Z4RtGQ=09.03.2025 17:49:5218.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Manufactures</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SRtsuV8/bWuj/RDl1y7jG8+RhvA=09.03.2025 17:50:0018.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Suppliers</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>n+ypvMW7VQ42Q0mO2uf4i1c5IK0=09.03.2025 17:50:0718.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>GoodGroupsDOPINFO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vI5oTbVyWfMCj/JjynlpMm4Cv/o=09.03.2025 17:50:1918.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Sklad</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>dY1LtrWlJ8pRNFJrvL1O1q4DGWg=02.03.2025 17:29:0118.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Status fIncome</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>twlkBpZIRfI+s/+tWZmuz4fS4eY=08.03.2025 17:22:5918.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Календарь fMovegood</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6rPl0FovGKZUSKq7Dqlf3hEuDyI=08.03.2025 17:23:4918.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Goods fMovegood</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>c/kjRNmYprivjcRhuKHZFjffo00=09.03.2025 17:03:3718.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>GoodGroups fMovegood</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Cxg35HZvQFf80QRIo/jw3Q6HLbw=09.03.2025 17:04:5018.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>GoodGroupsDOPINFO fMovegood</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LIuonJfD8ETAknVNdjmVG4LZY1Y=09.03.2025 17:05:4518.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Manufactures fMovegood</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>B0J83UtLL7VejNqKjs4r9KeVz5g=09.03.2025 17:07:2118.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Status fMovegood</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>d2cO+TQmd9gLfMUclLyBlgJKZ9k=09.03.2025 17:45:2818.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>SkladA fMovegood</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tdYf7qKTNy+saHJf+wOa6VEC7pc=09.03.2025 17:45:5818.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>SkladB fMovegood</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LTiduIBFrQvIODI5ipJRx21mGmw=09.03.2025 17:53:4218.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Goods fIncome</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TwXODQ037L1wvuY6UN+dkgPpD80=15.03.2025 1:16:3518.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Cod Sklada fStock</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JWN4Sc2VhaUx43PlLtI28cf0Ww8=15.03.2025 0:58:3318.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Goods Current Balance fStock</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4Hc3oWyjDB59VQSes72tcPZy9BE=15.03.2025 0:59:4118.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>GoodGroups Current Balance fStock</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qnxA8/fszs0L+38CRkbjtoqiIAs=15.03.2025 1:02:3818.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Stores fStock</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LDG/mnqG5BPWxWVhcj90zsE0sTw=15.03.2025 1:03:0818.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Manufactures fStock</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0vTVEaHacjkZm+8rVdxWrG7l4Qc=15.03.2025 1:03:5218.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>GoodGroupsDOPINFO fStock</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KzF/9aXj/kHuSRKkrdODpRilmeU=15.03.2025 1:05:0018.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Locations fStock</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jhaMqCJMxPiRbqdJT2Q5oaggN0U=15.03.2025 1:26:2818.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>LotNumber fStock</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ieOHTmIt4LXjPJ/FYJ5FNITM9WQ=16.03.2025 2:19:4518.03.2025 20:38:13Zk1hFWPYow/Q+rG86VlNY86C68c=09.03.2025 17:01:4218.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>fMovegood</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>0GPf3MnSkrJ/HeXVa0VkbC7PNlE=16.03.2025 2:19:2718.03.2025 20:38:132ze9a8njUrhH2hLmRwChmhTkN8s=09.03.2025 17:56:1218.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>fIncome</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>pu0Q/1A3c0DomXU6csoL2uoK5As=18.03.2025 20:45:3918.03.2025 20:38:13+OGwN7oWPzRtwg4xsHPc8xapK4o=15.03.2025 0:50:2018.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>fStock</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>PlxEY0RXMxyUpunf7LxkCFpdafw=02.03.2025 17:06:2618.03.2025 20:38:13</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>3WF0ihWd2G6xAZsS4v0Nb5SpdZw=02.03.2025 17:00:4418.03.2025 20:38:13</TimeStamp>
+      <ID>
+        <String>CubFIncome</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-03-18T17:45:42.323333Z</LastDeployed>
+</DeploymentSnapshot>

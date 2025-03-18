@@ -1,0 +1,121 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d7ca0598-790b-495c-97ee-539a3b2d232f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>fStock</ID>
+  <Name>fStock</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>DWH Для Lasmart</DataSourceID>
+  <Schema>
+    <xs:schema id="fStock" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="fStock" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="fc28bc1a-81e9-48c1-9574-8f93b37f6ff2">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_zvezdafStocPlusManuals" msprop:DbTableName="zvezdafStocPlusManuals" msprop:FriendlyName="zvezdafStocPlusManuals" msprop:TableType="View" msprop:DbSchemaName="dbo" msprop:design-time-name="dd93f0e6-db49-4320-a9fb-051a64d14ee5">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fs_id" msprop:FriendlyName="fs_id" msprop:DbColumnName="fs_id" msprop:design-time-name="6cbea8e1-ba7e-42de-a210-8ffa8424ae38" type="xs:int" />
+                  <xs:element name="idloc" msprop:FriendlyName="idloc" msprop:DbColumnName="idloc" msprop:design-time-name="098ca737-da82-44a0-8c1b-73553d262297" type="xs:int" minOccurs="0" />
+                  <xs:element name="idStores" msprop:FriendlyName="idStores" msprop:DbColumnName="idStores" msprop:design-time-name="09372a0c-7890-46bf-a227-6344db550619" type="xs:int" minOccurs="0" />
+                  <xs:element name="Stores" msprop:FriendlyName="Stores" msprop:DbColumnName="Stores" msprop:design-time-name="a8a6d289-b056-4421-be04-ab1315e7bd50" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="idManu" msprop:FriendlyName="idManu" msprop:DbColumnName="idManu" msprop:design-time-name="8ea56c3b-4335-43a3-b6d4-c817a715f0c4" type="xs:int" minOccurs="0" />
+                  <xs:element name="idG" msprop:FriendlyName="idG" msprop:DbColumnName="idG" msprop:design-time-name="78bdc888-0776-45e5-a3c5-19d8e6b39cb7" type="xs:int" minOccurs="0" />
+                  <xs:element name="idGG" msprop:FriendlyName="idGG" msprop:DbColumnName="idGG" msprop:design-time-name="b3edff5a-6af1-4272-a8b2-c4da2d2a41af" type="xs:int" minOccurs="0" />
+                  <xs:element name="idGGDOPINFO" msprop:FriendlyName="idGGDOPINFO" msprop:DbColumnName="idGGDOPINFO" msprop:design-time-name="ddac011c-eebf-492b-987f-586a1ebdb655" type="xs:int" minOccurs="0" />
+                  <xs:element name="Manufactures" msprop:FriendlyName="Manufactures" msprop:DbColumnName="Manufactures" msprop:design-time-name="6852f21b-1bd5-45ea-94e7-519effddba40" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="GoodGroups" msprop:FriendlyName="GoodGroups" msprop:DbColumnName="GoodGroups" msprop:design-time-name="8ede056e-73ca-47b7-bc9f-c84045362f65" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="GoodGroupsDopInfo" msprop:FriendlyName="GoodGroupsDopInfo" msprop:DbColumnName="GoodGroupsDopInfo" msprop:design-time-name="12191146-fec8-4767-aa5a-def72d76dc6a" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Goods" msprop:FriendlyName="Goods" msprop:DbColumnName="Goods" msprop:design-time-name="c0763ad8-8ab1-478b-8989-f4519fb23db0" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="location" msprop:FriendlyName="location" msprop:DbColumnName="location" msprop:design-time-name="75b41e42-5f4a-4346-937b-7f3cc5989e69" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="idlotnumber" msprop:FriendlyName="idlotnumber" msprop:DbColumnName="idlotnumber" msprop:design-time-name="b2a996c4-5c40-49da-89c5-6ca35558f689" type="xs:int" />
+                  <xs:element name="fs_count" msprop:FriendlyName="fs_count" msprop:DbColumnName="fs_count" msprop:design-time-name="9b4b10b6-46c3-4153-8a04-4ffa600db603" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="fsl_stock_id" msprop:FriendlyName="fsl_stock_id" msprop:DbColumnName="fsl_stock_id" msprop:design-time-name="50a2e375-1188-4136-aeb9-02cbc25e4784" type="xs:int" minOccurs="0" />
+                  <xs:element name="fsl_quantity" msprop:FriendlyName="fsl_quantity" msprop:DbColumnName="fsl_quantity" msprop:design-time-name="d83f9aa5-4fd7-4713-934c-93fd7127bb2d" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="fsl_lot_number" msdata:ReadOnly="true" msprop:FriendlyName="fsl_lot_number" msprop:DbColumnName="fsl_lot_number" msprop:design-time-name="ca75f99b-b1ef-4834-97e8-0ed5c772aa38" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="fsl_cogs" msprop:FriendlyName="fsl_cogs" msprop:DbColumnName="fsl_cogs" msprop:design-time-name="f29114dc-478e-485f-8b15-f234a6e68a65" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <fStock xmlns="" />
+  </Schema>
+</DataSourceView>
