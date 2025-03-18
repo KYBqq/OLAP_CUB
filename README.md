@@ -14,6 +14,8 @@
 Аптеки (stores.xml)
 Поставщики (suppliers.xml)
 
+Факты:
+
 Чеки (receipt.xml)  
 -- Заголовок чека  
 receipt_id     -- Уникальный GUID чека  
