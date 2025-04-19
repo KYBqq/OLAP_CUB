@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9d7b5b75-d4c4-4ba8-a3e0-d38543e1da85" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="532b28b8-a28e-4487-a93d-0c76ff99f0c6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>fMovegood</ID>
   <Name>fMovegood</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3783" scrolltop="-5" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="97" x="12832" y="12488" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3783" scrolltop="-5" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="97" x="14288" y="12488" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -116,125 +116,125 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="cd3f8145-68ec-40fe-8656-f4d8e8024666">
+    <Dimension dwd:design-time-name="a90ec01c-a944-4507-8c93-fb5132ca4f58">
       <ID>Календарь fMovegood</ID>
       <Name>Календарь fMovegood</Name>
       <DimensionID>Календарь fMovegood</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="dd678c12-0f60-4265-b569-7b45ef644c09">
+        <Attribute dwd:design-time-name="14cc513a-dfdf-4383-90b4-173051f16de8">
           <AttributeID>Fm Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="92705306-7680-4aee-91d2-bb0a26ad5e66">
+        <Attribute dwd:design-time-name="5bff23b0-92eb-4716-b132-a992e6d8ed24">
           <AttributeID>Doc Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1bbddaad-a0ca-44f8-bbea-b1010378b47e">
+        <Attribute dwd:design-time-name="ed1c43c0-f1c3-4792-8472-329678f6f49e">
           <AttributeID>Acceptand Sendand Draft Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6308bdcc-d477-4d8d-b393-e4f714ae2f75">
+        <Attribute dwd:design-time-name="24a7ad98-3c04-4744-8818-d5069becb23d">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b7790ac7-d38f-4691-a3c2-292220587515">
+        <Attribute dwd:design-time-name="75702c3a-25f8-404f-92f8-26eb79c3c465">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1b1a508b-3a57-4f61-bb5a-d527f1756e92">
+        <Attribute dwd:design-time-name="c8756e49-7ff3-4f46-89ea-936e56cfda33">
           <AttributeID>Day</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="48ff95e8-e59a-4fa5-b3cf-367be9e7a64a">
+    <Dimension dwd:design-time-name="5df79c62-f583-42e2-8485-da596114e02f">
       <ID>Goods fMovegood</ID>
       <Name>Goods fMovegood</Name>
       <DimensionID>Goods fMovegood</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="c6a59dd3-d6b5-4ce7-8d5d-28e5dbdf7435">
+        <Attribute dwd:design-time-name="4b1da1f8-3254-489a-97b8-f9ce31c28de2">
           <AttributeID>Id G</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="54be8ad1-58a5-4488-8b28-e19d3facb971">
+        <Attribute dwd:design-time-name="028cf7b0-7e17-44f0-9fde-80e578dd45ca">
           <AttributeID>Goods</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="e5d6d5b2-3b4b-43ce-8149-a0ff24c3f8b9">
+    <Dimension dwd:design-time-name="13f45f65-1335-4b9b-9453-8a8bb55af35b">
       <ID>Status fMovegood</ID>
       <Name>Status fMovegood</Name>
       <DimensionID>Status fMovegood</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="713169a9-4d1b-47b7-ae2a-13e354b628f6">
+        <Attribute dwd:design-time-name="38ea2dd4-a932-40a6-9744-a5f9a0eebcec">
           <AttributeID>Fm Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a97a6b77-aeae-456e-b554-0459bfcf4639">
+        <Attribute dwd:design-time-name="b68c304e-1a0c-4741-acfe-648aac48a72a">
           <AttributeID>Fm Status</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="45db8a68-5746-425f-85ed-62de1898b731">
+    <Dimension dwd:design-time-name="5b084145-097d-4fd4-b271-b5e2c48c42d0">
       <ID>Manufactures fMovegood</ID>
       <Name>Manufactures fMovegood</Name>
       <DimensionID>Manufactures fMovegood</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="dd56b4da-8ac7-46bc-95f0-9eae63f9842c">
+        <Attribute dwd:design-time-name="60fd18df-b511-4de7-a62d-a9eecfa1ca1e">
           <AttributeID>Id Manu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1018261c-6fb5-47bb-b661-7d157e4724eb">
+        <Attribute dwd:design-time-name="f229deed-d651-44b6-bd9f-edd1b6f6d0f0">
           <AttributeID>Manufactures</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="e3167805-1697-44aa-ad0f-b99f03c3b768">
+    <Dimension dwd:design-time-name="67e28529-3a85-4088-9787-74e34dada7d4">
       <ID>GoodGroups fMovegood</ID>
       <Name>GoodGroups fMovegood</Name>
       <DimensionID>GoodGroups fMovegood</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="7aca9a6e-ab5d-4f23-8277-bd5397bec10f">
+        <Attribute dwd:design-time-name="d940ec44-bc88-4214-8ba2-8079ab61b0c8">
           <AttributeID>Id GG</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1b6963fc-d9af-40df-9709-459463ad3740">
+        <Attribute dwd:design-time-name="4d5fc576-0e63-4f82-8152-cea3c462305e">
           <AttributeID>Good Groups</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="02e8efee-fa80-432b-b296-2d06af5ba562">
+    <Dimension dwd:design-time-name="bf8ff6ad-8ea0-4b6c-94d2-765822a1438c">
       <ID>SkladA fMovegood</ID>
       <Name>SkladA fMovegood</Name>
       <DimensionID>SkladA fMovegood</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="6653a439-da40-469c-a5fe-37d795b3f492">
+        <Attribute dwd:design-time-name="f70de4f4-06cf-4fc1-8de2-7e548d32384d">
           <AttributeID>Id Sklad A</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fe7e2b0f-72c6-4577-a5fb-610975d22635">
+        <Attribute dwd:design-time-name="bf67fe13-8909-4fa7-a129-c878f91048b4">
           <AttributeID>Codesklad A</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="da172544-cf8e-4169-8992-67306cadac8e">
+    <Dimension dwd:design-time-name="1765bbf2-409f-4c05-83d5-beadfd1463ed">
       <ID>SkladB fMovegood</ID>
       <Name>SkladB fMovegood</Name>
       <DimensionID>SkladB fMovegood</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="afd3759a-d8b1-4cb5-bced-5e21b090ab49">
+        <Attribute dwd:design-time-name="06752d97-3dc6-407d-ab6c-2ee66be1580e">
           <AttributeID>Id Skad B</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="32d1c191-9180-44b5-a942-940ca094d1fa">
+        <Attribute dwd:design-time-name="ced63afd-2480-44e0-9c2b-1956f41c2227">
           <AttributeID>Codeskad B</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="0155e636-9e4c-4ec6-80f3-1ea8f7be9d38">
+    <Dimension dwd:design-time-name="3a52af5a-7811-41b7-b5f9-1f7bb68e62a0">
       <ID>GoodGroupsDOPINFO fMovegood</ID>
       <Name>GoodGroupsDOPINFO fMovegood</Name>
       <DimensionID>GoodGroupsDOPINFO fMovegood</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="0c9a6dc6-99a7-47b3-b166-0298ab5bea1a">
+        <Attribute dwd:design-time-name="8f5d6da2-c3e0-4b99-b787-f54e503007c1">
           <AttributeID>Id GGDI</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c138226b-abb6-446b-aa8c-e7b3149b88b0">
+        <Attribute dwd:design-time-name="9125c84c-4f22-45f4-bb52-8bb6cfb138e6">
           <AttributeID>Good Groups Dop Info</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="dd563a84-ac32-4225-bad4-b0f7b3ffb5e6">
+    <MeasureGroup dwd:design-time-name="01ea3a7f-6060-4068-ae6e-e8da9ecbcdb9">
       <ID>Zvezda F Movegoo Plus Manuals</ID>
       <Name>fMovegood</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -242,45 +242,45 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="6b2e2f2d-26f0-4dd1-81bb-6356fef75c97">
+        <Measure dwd:design-time-name="93dbf584-2d81-4f05-bc5e-25b7513bc12b">
           <ID>All Move Amount</ID>
-          <Name>All Move Amount</Name>
-          <Source dwd:design-time-name="b8f1a1ee-da59-481d-adcc-223414fcc6c2">
+          <Name>Cумма перемещения</Name>
+          <Source dwd:design-time-name="413df36f-766f-44e6-8a1b-3ef75b606525">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="124b401a-ad00-4e62-94ed-f3bfb4073d43">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3a46aebf-8581-4951-90bc-601c15eecd3d">
               <TableID>dbo_zvezdaFMovegooPlusManuals</TableID>
               <ColumnID>AllMoveAmount</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="770d6154-457d-4df8-9165-9d964152dcf0">
+        <Measure dwd:design-time-name="556e8881-2543-4dd7-aa56-185a19dec72e">
           <ID>Fml Quantity</ID>
-          <Name>Fml Quantity</Name>
-          <Source dwd:design-time-name="84fc37e2-26ca-4e7b-8d64-e1996b36babc">
+          <Name>Количество перемещения</Name>
+          <Source dwd:design-time-name="c79f4f0c-5b24-49f1-a6f8-dff8205d57ec">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="71266b23-9b25-4120-a2f1-83b05c6fc75d">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="60288c95-fded-4493-adfb-b9801f7ab3aa">
               <TableID>dbo_zvezdaFMovegooPlusManuals</TableID>
               <ColumnID>fml_quantity</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="8c7b3ab6-c6a0-477f-a263-5ebadb473837">
+        <Measure dwd:design-time-name="35823f2a-4242-491b-8939-617611444b56">
           <ID>Fml Price</ID>
-          <Name>Fml Price</Name>
-          <Source dwd:design-time-name="64eec21b-b232-4dd6-822c-f5e90956ece8">
+          <Name>Себестоимость товара в перемещении</Name>
+          <Source dwd:design-time-name="1fdc1422-4103-4bad-9fc1-5c25b5b68257">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="f873a93a-ae88-4533-8649-83fa1467e7ff">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3362b173-0108-4d2c-81aa-4afff4a55386">
               <TableID>dbo_zvezdaFMovegooPlusManuals</TableID>
               <ColumnID>fml_price</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="87f174fb-9f23-40dc-a3e6-23b5d14355ad">
+        <Measure dwd:design-time-name="3ff0aba0-a4cc-4f55-81db-2396e639547d">
           <ID>Line Move Amount</ID>
-          <Name>Line Move Amount</Name>
-          <Source dwd:design-time-name="ee045c9a-220f-417b-8941-6302438c7b16">
+          <Name>Сумма по строке_CуммаПеремещения</Name>
+          <Source dwd:design-time-name="615c29dd-5de0-48f5-bfff-291ee28e3149">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c8c35750-5962-4903-9ff1-9d88660e45ea">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5e39266c-fb96-4430-985a-3485f5687f6e">
               <TableID>dbo_zvezdaFMovegooPlusManuals</TableID>
               <ColumnID>LineMoveAmount</ColumnID>
             </Source>
@@ -290,15 +290,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="298c818e-f5c3-466a-b266-60da6b78d79c">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c727e4ff-e6ba-4abd-bc6d-42a6929c3b11">
           <CubeDimensionID>Календарь fMovegood</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="0323238e-3f33-4a91-a676-9009a84b1cb4">
+            <Attribute dwd:design-time-name="ce705974-e8f7-46be-858a-138277e9c3e5">
               <AttributeID>Fm Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="1a09ddb0-172a-46d5-951d-bd263c6018fd">
+                <KeyColumn dwd:design-time-name="b90d0b09-8738-46a2-9c60-45442b015099">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3cd5dc3a-0a9a-4898-8f56-1c38411488a4">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="af82528d-f328-4310-ab56-e3d6caec902c">
                     <TableID>dbo_zvezdaFMovegooPlusManuals</TableID>
                     <ColumnID>fm_id</ColumnID>
                   </Source>
@@ -308,15 +308,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d87bcb60-a351-482a-bf27-ed7a19fec774">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6c249098-e076-4f3f-ae8a-e1f047435b8c">
           <CubeDimensionID>Goods fMovegood</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="315f2154-3794-4eaa-a016-495bd59af6fb">
+            <Attribute dwd:design-time-name="1a134e10-aa75-416e-874b-aedb539c367f">
               <AttributeID>Id G</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="bfadfcd1-e704-4dc7-905f-7047ad199766">
+                <KeyColumn dwd:design-time-name="b1c05668-fda7-41f9-ba04-0dec56f7a326">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="42ddda4e-e8e9-4d41-b661-ea96f25e9893">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="af0bf7c2-8853-43cd-b195-11eed64ac5da">
                     <TableID>dbo_zvezdaFMovegooPlusManuals</TableID>
                     <ColumnID>idG</ColumnID>
                   </Source>
@@ -326,15 +326,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="80028e85-8b41-49ef-98db-3d906b36d96e">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a64ce879-93db-4389-98eb-f3d2e4083f7a">
           <CubeDimensionID>Status fMovegood</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="46496508-e4b8-40c1-b860-b65905e51e9c">
+            <Attribute dwd:design-time-name="fcbe4c63-333a-4868-a780-5c5d20506be2">
               <AttributeID>Fm Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="14e5e2a2-76bb-4002-8fea-77f1d227bd9d">
+                <KeyColumn dwd:design-time-name="6a190311-ee08-4f20-876d-ad81968f699a">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7aa120fb-1a68-4c2d-bb11-6a95e0abafdf">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e2462fc5-4a7d-405e-a7a2-f2aa4b4d4813">
                     <TableID>dbo_zvezdaFMovegooPlusManuals</TableID>
                     <ColumnID>fm_id</ColumnID>
                   </Source>
@@ -344,15 +344,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="994fe82f-6036-47b3-91bd-7f8cd26c3fc1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c4a1be91-5dde-4cf4-bea7-1267c379efee">
           <CubeDimensionID>Manufactures fMovegood</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a547ac73-5dc7-4db7-96f2-f2dee58d668b">
+            <Attribute dwd:design-time-name="3d1fcb0a-6129-4775-a2ff-5f93d9a6a87f">
               <AttributeID>Id Manu</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="05cd7aac-3ce1-4a97-bd76-f5f5bb25a6a1">
+                <KeyColumn dwd:design-time-name="f28128a8-9c6d-47f5-96af-29ff5d452495">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="239e9231-6b21-4305-b22d-d0113cedd7ed">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="61c06dfa-e371-44e6-9897-c17fccd69a22">
                     <TableID>dbo_zvezdaFMovegooPlusManuals</TableID>
                     <ColumnID>idManu</ColumnID>
                   </Source>
@@ -362,15 +362,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0645b9c5-948b-445e-83c8-81f7553b5382">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c00563cd-976d-4d96-a5ce-a977c3a8fe61">
           <CubeDimensionID>GoodGroups fMovegood</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="f28fa02c-0f3b-4e0e-a5cf-25b9417c63ee">
+            <Attribute dwd:design-time-name="e02b939a-32cd-4b0f-a3a4-eb8b2f19cfb1">
               <AttributeID>Id GG</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="e88f8f24-8cc5-404b-8507-f5f55452b49b">
+                <KeyColumn dwd:design-time-name="3bb7a388-39c1-41f8-aec7-d012d083a6e8">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ea8322d6-1f01-43bb-8e1b-8f335e3be78c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="254f69fc-bce2-4976-968a-e1c4f156d5db">
                     <TableID>dbo_zvezdaFMovegooPlusManuals</TableID>
                     <ColumnID>idGG</ColumnID>
                   </Source>
@@ -380,15 +380,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="90ae8b4b-799d-485e-9e1b-5490cd2ecabc">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="014d88ca-44f2-4668-a57d-6be71be316f0">
           <CubeDimensionID>SkladA fMovegood</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a29fb758-b22c-435f-97cc-c021ab86a04e">
+            <Attribute dwd:design-time-name="66126f0c-07a9-4d1a-971a-a01188afee79">
               <AttributeID>Id Sklad A</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="dfddf195-6a19-4fe4-987b-2fa51d5c9976">
+                <KeyColumn dwd:design-time-name="1c353983-dbb1-4597-8ba0-41303f00bdd9">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8f88a0f4-dac4-4267-b504-4ba4ba7407b2">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="828adbe6-b649-4c44-bbd5-184f0a2ed255">
                     <TableID>dbo_zvezdaFMovegooPlusManuals</TableID>
                     <ColumnID>idSkladA</ColumnID>
                   </Source>
@@ -398,15 +398,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="570b55c0-5fca-4cd7-9838-b48ae331c106">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="860cded3-7d14-4669-b5c0-a5a587729a6f">
           <CubeDimensionID>SkladB fMovegood</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="9c441db3-c8d6-49dc-a487-093df8d0a090">
+            <Attribute dwd:design-time-name="b8c9d6ee-58bd-40bf-ba77-41b399785ec8">
               <AttributeID>Id Skad B</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="3c9f5a27-4008-45da-bc76-a405352318a9">
+                <KeyColumn dwd:design-time-name="92c27817-babc-4f10-8a59-2b12bcd4e7ae">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="185f1526-0d37-4055-a530-cf0472ed4bb9">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="34a6e9cf-286e-4e34-a02e-1da4d4000713">
                     <TableID>dbo_zvezdaFMovegooPlusManuals</TableID>
                     <ColumnID>idSkadB</ColumnID>
                   </Source>
@@ -416,15 +416,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="66457978-a7c3-44ec-ba8d-4db0241c7f6d">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="94e632f7-db9e-415d-987e-95f31e0c07c7">
           <CubeDimensionID>GoodGroupsDOPINFO fMovegood</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e3e80fda-c6cc-4758-9399-57038881323c">
+            <Attribute dwd:design-time-name="9f0a7be6-2000-40b4-974a-1813def63162">
               <AttributeID>Id GGDI</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="fa2df72f-4b88-45e5-b97b-1248894b8768">
+                <KeyColumn dwd:design-time-name="16773e93-db8a-4854-8146-8fec787a76b5">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5711230d-1bff-4295-a125-e0426b114a6b">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="08021c59-fb0a-45d6-b6c3-e8ae149c07c5">
                     <TableID>dbo_zvezdaFMovegooPlusManuals</TableID>
                     <ColumnID>idGGDI</ColumnID>
                   </Source>
@@ -438,7 +438,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="25811e33-7ef9-4cb4-9562-0508ae76764d">
+  <Source dwd:design-time-name="d7d1742e-888e-428f-bd7a-eee3f6e4815b">
     <DataSourceViewID>fMovegood</DataSourceViewID>
   </Source>
 </Cube>

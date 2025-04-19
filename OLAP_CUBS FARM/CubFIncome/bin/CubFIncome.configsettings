@@ -82,7 +82,76 @@
         <ID>Locations fStock</ID>
       </Dimension>
       <Dimension>
-        <ID>LotNumber fStock</ID>
+        <ID>Onhand Id fIncome</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Date</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Goods fReceipts</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Date 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Goods fReturns</ID>
+      </Dimension>
+      <Dimension>
+        <ID>GoodGroups fReceipts</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Manufactures fReceipts</ID>
+      </Dimension>
+      <Dimension>
+        <ID>GoodGroupsDopInfo fReceipts</ID>
+      </Dimension>
+      <Dimension>
+        <ID>КалендарьПродажи fReceipts</ID>
+      </Dimension>
+      <Dimension>
+        <ID>rlOnhandId fReceipts</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Marker fReceipts</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Cassa fReceipts</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Cотрудник fReceitps</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Тип операции fReceipts</ID>
+      </Dimension>
+      <Dimension>
+        <ID>ID склада или Магазина в системе fReceipts</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Код документа fReceipts</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Оплата бонусами fReceipts</ID>
+      </Dimension>
+      <Dimension>
+        <ID>GoodGroups fReturns</ID>
+      </Dimension>
+      <Dimension>
+        <ID>GoodGroupsDOPINFO fReturns</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Manufactures fReturns</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Suppliers fReturns</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Last_update_date fReturns</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Created_Date fReturns</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DocDateVozrat fReturns</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
@@ -120,6 +189,32 @@
             <Partitions>
               <Partition>
                 <ID>Zvezdaf Stoc Plus Manuals</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>fReceipts</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Zvezdaf Receipt Plus Manuals</ID>
+            <Partitions>
+              <Partition>
+                <ID>Zvezdaf Receipt Plus Manuals</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>fReturns</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Zvezdaf Return Plus Manuals</ID>
+            <Partitions>
+              <Partition>
+                <ID>Zvezdaf Return Plus Manuals</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

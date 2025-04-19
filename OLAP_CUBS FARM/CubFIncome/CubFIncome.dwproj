@@ -37,6 +37,26 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>fReceipts.cube</Name>
+      <FullPath>fReceipts.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>fReceipts.partitions</Name>
+          <FullPath>fReceipts.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>fReturns.cube</Name>
+      <FullPath>fReturns.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>fReturns.partitions</Name>
+          <FullPath>fReturns.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -132,8 +152,100 @@
       <FullPath>Locations fStock.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>LotNumber fStock.dim</Name>
-      <FullPath>LotNumber fStock.dim</FullPath>
+      <Name>Onhand Id fIncome.dim</Name>
+      <FullPath>Onhand Id fIncome.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Goods fReceipts.dim</Name>
+      <FullPath>Goods fReceipts.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Date 1.dim</Name>
+      <FullPath>Date 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Goods fReturns.dim</Name>
+      <FullPath>Goods fReturns.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GoodGroups fReceipts.dim</Name>
+      <FullPath>GoodGroups fReceipts.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Manufactures fReceipts.dim</Name>
+      <FullPath>Manufactures fReceipts.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GoodGroupsDopInfo fReceipts.dim</Name>
+      <FullPath>GoodGroupsDopInfo fReceipts.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>КалендарьПродажи fReceipts.dim</Name>
+      <FullPath>КалендарьПродажи fReceipts.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>rlOnhandId fReceipts.dim</Name>
+      <FullPath>rlOnhandId fReceipts.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Marker fReceipts.dim</Name>
+      <FullPath>Marker fReceipts.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cassa fReceipts.dim</Name>
+      <FullPath>Cassa fReceipts.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cотрудник fReceitps.dim</Name>
+      <FullPath>Cотрудник fReceitps.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Тип операции fReceipts.dim</Name>
+      <FullPath>Тип операции fReceipts.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ID склада или Магазина в системе fReceipts.dim</Name>
+      <FullPath>ID склада или Магазина в системе fReceipts.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Код документа fReceipts.dim</Name>
+      <FullPath>Код документа fReceipts.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Оплата бонусами fReceipts.dim</Name>
+      <FullPath>Оплата бонусами fReceipts.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GoodGroups fReturns.dim</Name>
+      <FullPath>GoodGroups fReturns.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GoodGroupsDOPINFO fReturns.dim</Name>
+      <FullPath>GoodGroupsDOPINFO fReturns.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Manufactures fReturns.dim</Name>
+      <FullPath>Manufactures fReturns.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Suppliers fReturns.dim</Name>
+      <FullPath>Suppliers fReturns.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Last_update_date fReturns.dim</Name>
+      <FullPath>Last_update_date fReturns.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Created_Date fReturns.dim</Name>
+      <FullPath>Created_Date fReturns.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DocDateVozrat fReturns.dim</Name>
+      <FullPath>DocDateVozrat fReturns.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -154,6 +266,14 @@
     <ProjectItem>
       <Name>fStock.dsv</Name>
       <FullPath>fStock.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>fReceipts.dsv</Name>
+      <FullPath>fReceipts.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>fReturns.dsv</Name>
+      <FullPath>fReturns.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Roles>

@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="86b62f97-c53d-47ce-986a-ef3cb5544399" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>LotNumber fStock</ID>
-  <Name>LotNumber fStock</Name>
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="738d1a8a-3276-4568-bf8c-64f0868d9214" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Suppliers fReturns</ID>
+  <Name>Suppliers fReturns</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -42,49 +42,49 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="263c9e85-409c-4a10-839b-3fc32c08c05e">
-    <DataSourceViewID>fStock</DataSourceViewID>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f3c51100-14e5-49b2-87c4-00d9ceaa7185">
+    <DataSourceViewID>fReturns</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="a6dadae7-6463-4760-9a64-755e63a29aef">
+  <ErrorConfiguration dwd:design-time-name="112fb852-9a2b-457c-b3d5-13633341b7c1">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="ce68d1ce-f170-410c-9300-88b4dd7d5c41">
-      <ID>Idlotnumber</ID>
-      <Name>Idlotnumber</Name>
+    <Attribute dwd:design-time-name="e46f5687-6ff9-4fe6-801f-89e24744504b">
+      <ID>Id Suppliers</ID>
+      <Name>Id Suppliers</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="5bbc23f8-e917-4967-8b43-be97a96c06d7">
+        <KeyColumn dwd:design-time-name="4a9623d7-6cba-40ca-9b8b-cd0be002fae4">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="70542b18-5083-429e-aa28-c30052eb1320">
-            <TableID>dbo_zvezdafStocPlusManuals</TableID>
-            <ColumnID>idlotnumber</ColumnID>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="44d0bc00-c096-4f0a-a320-41ce9e790f96">
+            <TableID>dbo_zvezdafReturnPlusManuals</TableID>
+            <ColumnID>idSuppliers</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="e9fcc567-bee6-4046-98b4-f7b6196091ae">
-          <AttributeID>Fsl Lot Number</AttributeID>
-          <Name>Fsl Lot Number</Name>
+        <AttributeRelationship dwd:design-time-name="df51a74f-4014-4e42-88ec-3bbaa990a300">
+          <AttributeID>Suppliers</AttributeID>
+          <Name>Suppliers</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b1123ede-5697-4444-9911-b0be0ac2be4f">
-      <ID>Fsl Lot Number</ID>
-      <Name>Fsl Lot Number</Name>
+    <Attribute dwd:design-time-name="a4d921fc-c4b4-4d4c-a523-d32dc1b940cd">
+      <ID>Suppliers</ID>
+      <Name>Suppliers</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="30ae7203-98d6-4edb-87f5-ca38966319b8">
+        <KeyColumn dwd:design-time-name="e35b91f9-238d-4ff2-ba53-8d0489c075c1">
           <DataType>WChar</DataType>
           <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="10b9ea0c-6876-426d-a2f9-cf61e61da717">
-            <TableID>dbo_zvezdafStocPlusManuals</TableID>
-            <ColumnID>fsl_lot_number</ColumnID>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c4fbbaf0-8f29-495a-8031-d4a650a6421a">
+            <TableID>dbo_zvezdafReturnPlusManuals</TableID>
+            <ColumnID>Suppliers</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
